@@ -6,6 +6,7 @@ const nextConfig = {
     },
     basePath: '/bakes-and-bloom',
     assetPrefix: '/bakes-and-bloom',
+    trailingSlash: true,
 };
 
 export default nextConfig;
