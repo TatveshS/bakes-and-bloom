@@ -4,6 +4,8 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
+    basePath: '/bakes-and-bloom',
+    assetPrefix: '/bakes-and-bloom',
     trailingSlash: true,
     eslint: {
         ignoreDuringBuilds: true,
