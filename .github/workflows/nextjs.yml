@@ -34,8 +34,8 @@ jobs:
         run: npm ci
       - name: Build with Next.js
         run: npm run build
-      - name: "Debug: List files"
-        run: ls -R
+      - name: "Check out directory"
+        run: ls -la out
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
